@@ -22,4 +22,6 @@ addentry.html
    
     This sheet will house all the css for all pages
     
+   myscript.html
+    This sheet will house the javascript for the pages including fuctions
     
