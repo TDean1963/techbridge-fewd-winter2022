@@ -4,8 +4,9 @@ table, th, td{
      
   }
 h1{
-  font-size: 20px; color: blue;
+  font-size: 50px; color: blue;
   text-align: center;
+  background-color: dimgrey;
 }
 th{
   width: 5in;
@@ -22,9 +23,10 @@ body{
 }
 form{
   border-style:groove;
-  align-items: right;
-  padding: 30px;
+  align-items: center;
   border-color: dimgray;
+  font-size: large;
+  text-align: center;
 }
 .Genrelist{
   font-size: small;
@@ -48,4 +50,34 @@ form{
   cursor: pointer;  
   width: 100%;  
   opacity: 0.9;
+}
+.regnew{
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 1px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}
+.signin1{
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 1px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}
+.registernewuser{
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 1px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
 }
