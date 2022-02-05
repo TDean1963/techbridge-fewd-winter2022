@@ -1,18 +1,19 @@
 
 table, th, td{
-      border:02px solid black
+      border: 1px solid black;
+      width: auto;
      
   }
 h1{
-  font-size: 50px; color: blue;
+  font-size: 200%; color: blue;
   text-align: center;
   background-color: dimgrey;
 }
 th{
-  width: 5in;
+  width: 100%;
 }
 td{
-  width: 3in;
+  width: 10in;
   height: .5in;
 }
 body{
@@ -76,6 +77,15 @@ form{
   color: white;  
   padding: 16px 1px;  
   margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}
+.delete{
+  background-color: #d4291d;  
+  color: white;  
+  padding: 16px 1px;    
   border: none;  
   cursor: pointer;  
   width: 100%;  
