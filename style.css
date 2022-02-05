@@ -1,0 +1,51 @@
+
+table, th, td{
+      border:02px solid black
+     
+  }
+h1{
+  font-size: 20px; color: blue;
+  text-align: center;
+}
+th{
+  width: 5in;
+}
+td{
+  width: 3in;
+  height: .5in;
+}
+body{
+  background-color: rgb(252, 247, 181);
+  width:300px;
+  margin:auto;
+  font-size: large;
+}
+form{
+  border-style:groove;
+  align-items: right;
+  padding: 30px;
+  border-color: dimgray;
+}
+.Genrelist{
+  font-size: small;
+}
+.registerbtn {  
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.regsub{
+  background-color: #4CAF50;  
+  color: white;  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <h1>Add Book Entry</h1>
+        <form>
+            <div class="title">
+                <label for="BookTitle">Book Title</label>
+                <input type="text" placeholder="BookTitle" name="BookTitle"><br>
+            </div> 
+            <div class="Author">
+                <label for="BookAuthor">Author</label><br>
+                <input type="text" placeholder="Author" name="Author"><br>
+            </div>
+            <div class="yearp">
+                <label for="Bookyear">Year Published</label>
+                <input type="text" placeholder="Year Published" name="Year"><br>
+            </div>  
+            <div class="price">
+                <label for="Price">Price</label><br>
+                <input type="text" placeholder="Price" name="Price"><br>
+            </div> 
+            <div class="location">
+                <label for="Location">Location</label>
+                <input type="text" placeholder="Location" name="Location"><br>
+            </div>
+            <div class="copies">
+                <label for="copies"># of Copies</label>
+                <input type="text" placeholder="copies" name="copies"><br>
+            </div>
+            <div class="condition">
+                <label for="condition">Condition</label>
+                <input type="text" placeholder="condition" name="condition"><br>
+            </div>
+          
+<!--     
+    **Genres are repeatable, depending on the preference of user, can combine genres
+
+    This is the first option to cover genres, these are checker boxes 
+    
+    <div class="Genrelist">
+            <input type="checkbox" id="Horror" value="Horror">Horror</input>
+            <input type="checkbox" id="Fantasy" value="Fantasy">Fantasy</input>
+            <input type="checkbox" id= "Drama" value="Drama" >Drama</input>
+            <input type="checkbox" id="Biography/AutoBiography" value="Biography/Autobiography">Biography/Autobiography</input>
+            <input type="checkbox" id="Action/Adventure" value="Action Adventure">Action</input><br>
+            <input type="checkbox" id="Sci-Fi" value="Sci-Fi">Sci-Fi</input>
+            <input type="checkbox" id="Fable" value="Fable">Fable</input>
+            <input type="checkbox" id="History" value="History">History</input>
+            <input type="checkbox" id="Comedy" value="Comedy">Comedy</input>
+            <input type="checkbox" id="Mystery/Thriller" value="Mystery/Thriller">Mystery/Thriller</input>
+            <input type="checkbox" id="Self Help" value="Self Help">Self Help</input><br>
+            <input type="checkbox" id="Children" value="Children">Children</input>
+            <input type="checkbox" id="Non-Fiction" value="Non-Fiction">Non-Fiction</input>
+            <input type="checkbox" id="Fiction" value="Fiction">Fiction</input><input type="checkbox" id="Travel" value="Travel">Travel</input>  
+        </div> --> 
+
+        <!-- this is the second option for genre list. selection dots
+
+        <input type="radio" id="Horror" name="genretype" value="Horror">
+        <label for="Horror">Horror</label>
+        <input type="radio" id="Drama" name="genretype" value="Drama">
+        <label for="Drama">Drama</label>
+        <input type="radio" id="Action" name="genretype" value="Action">
+        <label for="Action">Action</label>
+        <input type="radio" id="Fantasy" name="genretype" value="Fantasy">
+        <label for="Fantasy">Fantasy</label>
+        <input type="radio" id="Biography" name="genretype" value="Biography">
+        <label for="Biography">Biography</label>
+        <input type="radio" id="Comedy" name="genretype" value="Comedy">
+        <label for="Comedy">Comedy</label><br><br>
+-->
+        <label for="Genre">Genre</label><br>
+        <input list="Genres" name="Genre" placeholder="Select Genre">
+        <datalist id="Genres">
+          <option value="Horror">
+          <option value="Drama">
+          <option value="Action">
+          <option value="Biography">
+          <option value="Fiction">
+          <option value="Non-Fction">
+          <option value="History">
+          <option value="Fable">
+          <option value="Mystery">
+        </datalist>
+   
+    </form>
+    <button type="button" class="registerbtn">Add Entry</button>
+    </body>
+</html>
