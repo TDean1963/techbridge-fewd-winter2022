@@ -1,0 +1,140 @@
+
+
+
+h1{
+    text-align: center;
+    font-size: 75px;   
+    border: groove;
+   background-color: rgb(0, 207, 173);
+}
+p{
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+ol{
+    text-align: left;
+    font-size: large;
+    margin: 30px;
+    padding-left: 20px;
+}
+/*img{
+    align-items: initial;
+    size: 0,0;
+}
+/*Form Formatting*/
+form{
+    background-color: rgba(0,0,0,0.2);
+}
+#checkbox{
+      font-size: 10px;
+  }
+    label {
+    padding: 12px 12px 12px 0;
+    size: 30px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+ /* input[type=text] {
+    width: 100%;
+    padding: 3px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus {
+    background-color: lightblue;
+  }*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  input[type=submit] {
+    width: 50%;
+    font-size: x-large;
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  input[id=cancel] {
+    width: 50%;
+    font-size: x-large;
+    background-color: #aa0404;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  .container {
+    margin: 5px;
+    padding: 12px,12px,12px;
+    background-color: #f2f2f2;
+  }
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    border: groove;
+    
+  }
+  .col-75 {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    border: groove;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /*Dropdown Menu*/
+  .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd}
+  .show {display:block;}
