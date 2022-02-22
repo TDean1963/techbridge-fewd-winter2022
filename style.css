@@ -4,9 +4,10 @@
 .Bblock{
   margin-left: 10px;
 }
-table, th, td{
+table{
       border: 1px solid black;
       width: auto;
+     
      
   }
 h1{
@@ -15,7 +16,7 @@ h1{
   background-color: dimgrey;
 }
 th{
-  width: 100%;
+  width: auto;
 }
 td{
   width: 10in;
@@ -27,11 +28,30 @@ body{
   font-size: large;
 }
 form{
-  border-style:groove;
+  border-style: none;
+  align-items: left;
+  border-color: white;
+  font-size: 20px;
+  text-align: left;
+
+}
+label{
+  width: auto;
+  
+  font-size: 30px;
+
+}
+div.genre{
+  padding-left: 1%;
+}
+input{
   align-items: center;
-  border-color: dimgray;
-  font-size: large;
-  text-align: center;
+  text-align: right; 
+  font-size: 20px;
+  size-adjust: 100%;
+  background-color:inherit;
+  width: auto;
+  
 }
 .books{
   max-width: fit-content;
@@ -70,7 +90,8 @@ form{
   border: none;  
   cursor: pointer;  
   width: 100%;  
-  opacity: 0.9;  
+  opacity: 0.9;
+  text-align: left;  
 }
 .signin1{
   background-color: #4CAF50;  
@@ -199,4 +220,8 @@ form{
 @keyframes animatezoom {
   from {transform: scale(0)}
   to {transform: scale(1)}
+}
+p{
+  kerning: auto;
+  margin: 0%;
 }

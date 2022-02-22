@@ -53,8 +53,16 @@ form{
     box-sizing: border-box;
     resize: vertical;
   }
+  input[type=password], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
   input[type=submit] {
-    width: 50%;
+    width: 100%;
     font-size: x-large;
     background-color: #04AA6D;
     color: white;
@@ -65,7 +73,7 @@ form{
     float: left;
   }
   input[id=cancel] {
-    width: 50%;
+    width: 100%;
     font-size: x-large;
     background-color: #aa0404;
     color: white;
@@ -75,6 +83,55 @@ form{
     cursor: pointer;
     float: right;
   }
+  button{
+    width: 100%;
+    font-size: x-large;
+    background-color: #04AA6D;
+    color: white;
+    padding: 20px 20px;
+    border: groove;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+  input[id=regnew] {
+    width: 100%;
+    font-size: x-large;
+    background-color: #e0e409;
+    color: white;
+    padding: 20px 20px;
+    border: groove;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input[id=forgot] {
+    width: 50%;
+    font-size: medium;
+    background-color: #757571;
+    color: white;
+    padding: 20px 20px;
+    border-color: black;
+    border-top: 2px;
+    border-radius: 4px;
+    border-style: groove;
+    cursor: pointer;
+    float: right;
+  }
+  input[id=cancele] {
+    width: 50%;
+    font-size: medium;
+    background-color: #757571;
+    color: white;
+    padding: 20px 20px;
+    border-color: black;
+    border-top: 2px;
+    border-radius: 4px;
+    border-style: groove;
+    cursor: pointer;
+    float: right;
+  }
+  
   .container {
     margin: 5px;
     padding: 12px,12px,12px;
@@ -98,7 +155,9 @@ form{
     display: table;
     clear: both;
   }
-  
+  .forgotset{
+    padding-top: 10px;
+  }
   @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
       width: 100%;
